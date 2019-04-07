@@ -1,0 +1,18 @@
+image: codefreshplugins/k8s-canary-deployment
+version: 0.1.0
+description: 'Perform canary deployments on a Kubernetes cluster'
+keywords:
+  - kubernetes
+  - canary
+  - deployment
+categories:
+  - Featured
+  - Deployment
+sources:
+  - https://github.com/codefresh-contrib/k8s-canary-deployment
+icon: https://raw.githubusercontent.com/codefresh-plugins/k8s-canary-deployment/master/icon.jpg
+maintainers:
+  - name: Kostis Kapelonis
+envs:
+  - name: KUBE_CONTEXT
+    description: 'The name of your cluster (as found in the Codefresh Kubernetes dashboard).'
