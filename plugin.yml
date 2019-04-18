@@ -4,8 +4,8 @@ tag: 0.1.0
 version: 0.1.0
 description: Perform canary deployments on a Kubernetes cluster
 categories:
-- Featured
-- Deployment
+- featured
+- deployment
 keywords:
 - kubernetes
 - canary
