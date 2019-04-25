@@ -9,7 +9,7 @@ steps:
     dockerfile: Dockerfile
   canaryDeploy:
     title: "Deploying new version ${{CF_SHORT_REVISION}}"
-    image: codefresh/k8s-canary:master
+    image: codefreshplugins/k8s-canary
     environment:
       - WORKING_VOLUME=.
       - SERVICE_NAME=my-demo-app

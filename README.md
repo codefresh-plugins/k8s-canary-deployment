@@ -84,7 +84,7 @@ For the `KUBE_CONTEXT` environment variable just use the name of your cluster as
 ```
  canaryDeploy:
     title: "Deploying new version ${{CF_SHORT_REVISION}}"
-    image: codefresh/k8s-canary:master
+    image: codefreshplugins/k8s-canary:master
     environment:
       - WORKING_VOLUME=.
       - SERVICE_NAME=my-demo-app
